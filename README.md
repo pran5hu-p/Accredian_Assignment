@@ -1,5 +1,7 @@
 # Full-Stack Corporate Training Platform & Lead Management System
 
+🌐 **Live Demo:** [https://accredian-assignment-omega.vercel.app/](https://accredian-assignment-omega.vercel.app/)
+
 A production-grade, full-stack web application built for **Accredian**, designed to showcase enterprise-level corporate training solutions, interactive components, dynamic FAQs, partner testimonials, and a secure lead-generation pipeline backed by a PostgreSQL database.
 
 ---
