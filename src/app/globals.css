@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+  --font-mono: var(--font-poppins);
+  --color-universal: #1a73e8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
