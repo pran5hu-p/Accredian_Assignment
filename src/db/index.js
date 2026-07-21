@@ -4,6 +4,5 @@ import * as schema from "./schema";
 
 const connectionString = process.env.DATABASE_URL;
 
-// Disable prefetch as it's not supported for some serverless/pooling setups
 const client = postgres(connectionString, { prepare: false });
 export const db = drizzle(client, { schema });

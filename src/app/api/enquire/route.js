@@ -9,7 +9,6 @@ export async function POST(request) {
 
     const validationResult = leadSchema.safeParse(body);
     if (!validationResult.success) {
-      // Use .issues or fallback gracefully to avoid undefined errors
       const errorList = validationResult.error.issues || validationResult.error.errors || [];
       const errorMessages = errorList.map((err) => err.message).join(", ") || "Validation failed";
       
